@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color:black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.sidebar {
+    width: 20%;
+    height: 100vh;
+    background-color: orangered;
+    padding: 15px;
+    box-sizing: border-box;
+    float: left;
+}
+.main-content {
+    width: 80%;
+    padding: 15px;
+    box-sizing: border-box;
+    float: left;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.grid-item {
+    background-color:black;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    width: 80%;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    clear: both;
+    background-color:palevioletred;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+}

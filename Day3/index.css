@@ -1,0 +1,54 @@
+button:hover{
+    padding: 10px;
+    background-color: blueviolet;
+    color: aqua;
+}
+p:nth-child(even){
+    color:peru;
+}
+
+#box{
+    width: 400px;
+    height: 400px;
+    border: 2px solid greenyellow;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+#box1{
+    width: 20%;
+    height: 200px;
+    justify-content: right;
+    border: 1px solid rebeccapurple;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+#box1{
+    top: 0px;
+    background-color: black;
+    color: aquamarine;
+
+}
+body{
+    background-color: black;}
+
+@media only screen and (max-width: 500px){
+    body{
+        background-color: blue
+    };
+}
+    
+#box3{
+    padding: 100p;
+    height: 500px;
+    background-color:red ;
+}
+#lil-boxes{
+    padding: 50px;
+    margin: 15px;
+    border: 1px solid whitesmoke;
+
+}

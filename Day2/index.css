@@ -1,0 +1,14 @@
+#box{
+    width: 20%;
+    height: 200px;
+    border: 25px solid rgb(0, 21, 255);
+}
+
+#Navbar{
+    width: 20%;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: whitesmoke;
+    grid: 2D;
+}

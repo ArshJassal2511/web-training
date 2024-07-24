@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>Cards for Cars</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:white;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: whitesmoke;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            height: 400px; /* Fixed height for all cards */
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .card img {
+            width: 100%;
+            height: 200px; /* Fixed height for the image */
+            object-fit: cover; /* Ensure the image covers the space */
+        }
+        .card-content {
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card-title {
+            font-size: 24px;
+            margin: 0 0 10px;
+            text-align: center; /* Center the title */
+        }
+        .card-description {
+            font-size: 16px;
+            color: black;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://th.bing.com/th/id/OIP._E8iqP0emISyrQftNUH1FgHaEK?w=1200&h=674&rs=1&pid=ImgDetMain" alt="Chevrolet Cruze">
+        <div class="card-content">
+            <h2 class="card-title">Chevrolet Cruze</h2>
+            <p class="card-description">Price starts at Rs. 13.38 Lakh and goes up to Rs. 14.65 Lakh. The price of Diesel variant for Cruze ranges between Rs. 13.38 Lakh - Rs. 14.65 Lakh.</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://www.gannett-cdn.com/-mm-/8bf87050153a01996404c07c59471a72c66f94a5/c=696-1496-5176-4027/local/-/media/2017/08/19/USATODAY/USATODAY/636387060224457774-m5.jpg?width=1320&height=744&fit=crop&format=pjpg&auto=webp" alt="Mercedes A-Class Limousine">
+        <div class="card-content">
+            <h3 class="card-title">Mercedes A-Class Limousine</h3>
+            <p class="card-description">Price starts at Rs. 46.05 Lakh and goes up to Maybach GLS (Rs. 3.35 Crore).</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://media.autoexpress.co.uk/image/private/s--Ua0UGiQH--/t_content-image-full-desktop@2/v1563183033/autoexpress/2018/11/02_28.jpg" alt="Lamborghini Huracan Evo">
+        <div class="card-content">
+            <h4 class="card-title">Lamborghini Huracan Evo</h4>
+            <p class="card-description">Price starts at Rs. 3.22 Crore and goes up to Revuelto (Rs. 8.89 Crore).</p>
+        </div>
+    </div>
+</body>
+</html>
